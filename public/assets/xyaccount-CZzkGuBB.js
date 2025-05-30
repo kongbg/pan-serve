@@ -1,0 +1,1 @@
+var p=Object.defineProperty;var r=(o,s,t)=>s in o?p(o,s,{enumerable:!0,configurable:!0,writable:!0,value:t}):o[s]=t;var c=(o,s,t)=>r(o,typeof s!="symbol"?s+"":s,t);import{B as u}from"./index-CLxqDhjD.js";class e extends u{constructor(){super("/xyaccounts");c(this,"pushGood",t=>this.customPost("pushGood",t))}}const i=new e;export{i as x};

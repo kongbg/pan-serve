@@ -1,0 +1,1 @@
+const m=(o="")=>{const s={};try{const a=new URL(o,"http://dummybase"),t=[a.searchParams,new URL("http://dummybase?"+(a.hash.split("?")||"")).searchParams];for(const c of t)c.forEach((n,r)=>{const e=decodeURIComponent(n);s[r]=s.hasOwnProperty(r)?[].concat(s[r],e):e})}catch(a){console.warn("URL 解析失败:",a.message)}return s};export{m as g};
